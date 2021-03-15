@@ -13,6 +13,3 @@ env/
 
 # Tensorboard logs
 logs/
-
-# Saved Keras Model
-model/
