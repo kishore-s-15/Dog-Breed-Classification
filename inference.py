@@ -5,9 +5,9 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 import base64
 import numpy as np
 
-from keras.models import load_model
-from keras.applications.resnet50 import preprocess_input
-from keras.preprocessing.image import load_img, img_to_array
+from tensorflow.keras.models import load_model
+from tensorflow.keras.applications.resnet50 import preprocess_input
+from tensorflow.keras.preprocessing.image import load_img, img_to_array
 
 def decode_predictions(B64_string: bytes) -> str:
     """

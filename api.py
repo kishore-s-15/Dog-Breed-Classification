@@ -10,9 +10,9 @@ import uvicorn
 from fastapi import FastAPI
 from pydantic import BaseModel
 
-from keras.models import load_model
-from keras.applications.resnet50 import preprocess_input
-from keras.preprocessing.image import load_img, img_to_array
+from tensorflow.keras.models import load_model
+from tensorflow.keras.applications.resnet50 import preprocess_input
+from tensorflow.keras.preprocessing.image import load_img, img_to_array
 
 app = FastAPI()
 
