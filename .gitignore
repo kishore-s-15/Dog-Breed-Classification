@@ -1,0 +1,18 @@
+# Cache Folders
+__pycache__/
+.ipynb_checkpoints/
+
+# Settings
+.vscode/
+
+# Data Files
+data/
+
+# Virtual Environment
+env/
+
+# Tensorboard logs
+logs/
+
+# Saved Keras Model
+model/
